@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="PlaneMesh" id=1]
+size = Vector2( 20, 20 )
+subdivide_width = 20
+subdivide_depth = 20
+
+[node name="Water" type="MeshInstance"]
+mesh = SubResource( 1 )
+material/0 = null
